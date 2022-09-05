@@ -3,5 +3,9 @@
 ## Shortcuts
 `F5` Run
 
-##
-[a relative link](mittelwert.rkt)
+## 
+| Datei | Schlagwörter |
+|-------|--------------|
+| [mittelwert.rkt](mittelwert.rkt) | `Rechnen`, `grundlegender Aufbau Funktionen` |
+
+
