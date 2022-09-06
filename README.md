@@ -10,3 +10,4 @@
 | [ifAnweisung.rkt](ifAnweisung.rkt) | `if-Anweisung`, `Bedingung` |
 | [mehrfachverzweigung.rkt](mehrfachverzweigung.rkt) | `mehrere Bedingungen` |
 | [listen.rkt](listen.rkt) | `Listen`, `Kurzschreibweise` |
+| [rekursion.rkt](rekursion.rkt) | `Rekursion`, `Endrekursion` |
