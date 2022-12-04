@@ -141,11 +141,11 @@
 ; sind (fuelleListe-Funktion). Diese Liste wird dann der Reihe nach mit allen Elementen
 ; aus der Elementenliste optimiert bis die optimale Lösung erreicht ist.
 (define (aufruffunktion kistengroesse elementenliste)
-  (optimiere elementenliste (fuelleListe (+ kistengroesse 1) elementenliste))
+  (car (reverse (optimiere elementenliste (fuelleListe (+ kistengroesse 1) elementenliste))))
   )
 
 ; Format von Elementen in der folgenden Liste: (Wert Größe Name)
 (define elementenliste '((7 2 Diamant) (11 3 Ring) (16 4 Muenze) (24 5 Kompass)
                                        (32 7 Vase) (36 8 Krone) (43 9 Waage)))
 
-(aufruffunktion 13 elementenliste)
+;(aufruffunktion 13 elementenliste)
